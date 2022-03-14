@@ -39,9 +39,6 @@ namespace ipScan
             if (checkBox1.Checked == true)
             {
                 Process.Start("cmd", "/K netsh interface ip delete arpcache && exit");
-            }else
-            {
-
             }
             if (checkBox2.Checked == true)
             {
@@ -51,8 +48,7 @@ namespace ipScan
             {
                 textBox2.Text = "";
             }
-            
-           
+            comparison();
         }
 
         public void SaveStart()
@@ -68,10 +64,14 @@ namespace ipScan
         }
         public void comparison()
         {
-            if (ipList == TempipList)
+            if (textBox1.Text == textBox2.Text)
             {
                 label2.ForeColor = Color.LimeGreen;
                 label2.Text = "Изменений не обнаружено";
+            }
+            else if (textBox2.Text == "")
+            {
+                label2.Text = "";
             }
             else
             {
@@ -99,12 +99,6 @@ namespace ipScan
                 comparison();
             }
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             SaveStart();
@@ -113,8 +107,6 @@ namespace ipScan
                 comparison();
             }
         }
-        
-        
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -130,11 +122,6 @@ namespace ipScan
         private void button4_Click(object sender, EventArgs e)
         {
             ClearCash();
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
