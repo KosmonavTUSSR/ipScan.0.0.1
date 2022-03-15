@@ -94,8 +94,6 @@ namespace ipScan
 
             }
         }
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             start();
@@ -122,26 +120,18 @@ namespace ipScan
             {
             }
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
             Clear();
             label2.Text = "";
         }
-
         private void label2_Click(object sender, EventArgs e)
         {
 
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
             ClearCash();
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
