@@ -43,8 +43,8 @@ namespace ipScan
             {
                 Process clear = new Process();
                 clear.StartInfo.FileName = "netsh";
-                clear.StartInfo.UseShellExecute = false;
                 clear.StartInfo.Arguments = "interface ip delete arpcache";
+                clear.StartInfo.UseShellExecute = false;
                 clear.Start();
             }
             if (checkBox2.Checked)

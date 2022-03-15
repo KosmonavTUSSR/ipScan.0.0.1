@@ -51,7 +51,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>78299686-54212a00-7504-11ea-8985-6b80f37d9ed3.ico</ApplicationIcon>
+    <ApplicationIcon>tcvk9-twvob.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -104,6 +104,7 @@
   <ItemGroup>
     <Content Include="78299686-54212a00-7504-11ea-8985-6b80f37d9ed3.ico" />
     <Content Include="icons8-thin-client-96.ico" />
+    <Content Include="tcvk9-twvob.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
