@@ -79,7 +79,7 @@
             // button2
             // 
             this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.SlateGray;
+            this.button2.BackColor = System.Drawing.Color.SteelBlue;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.Enabled = false;
             this.button2.FlatAppearance.BorderSize = 0;
@@ -132,6 +132,7 @@
             this.label2.AutoSize = true;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Firebrick;
             this.label2.Location = new System.Drawing.Point(467, 602);
             this.label2.MaximumSize = new System.Drawing.Size(251, 25);
             this.label2.MinimumSize = new System.Drawing.Size(251, 25);
@@ -143,12 +144,12 @@
             // button4
             // 
             this.button4.AutoSize = true;
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(183)))), ((int)(((byte)(192)))));
+            this.button4.BackColor = System.Drawing.Color.SteelBlue;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.ForeColor = System.Drawing.Color.Gainsboro;
             this.button4.Location = new System.Drawing.Point(436, 433);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(95, 35);
