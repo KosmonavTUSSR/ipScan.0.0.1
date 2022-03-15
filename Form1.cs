@@ -34,7 +34,7 @@ namespace ipScan
             scan.StartInfo.StandardOutputEncoding = Encoding.GetEncoding(866);
             scan.Start();
             ipList = scan.StandardOutput.ReadToEnd();
-
+            textBox1.Text = ipList;
             button2.Enabled = true; //Scam+
         }
         public void ClearCash()
@@ -67,6 +67,7 @@ namespace ipScan
             process.StartInfo.RedirectStandardOutput = true;
             process.Start();
             ipListSec = process.StandardOutput.ReadToEnd();
+            textBox2.Text = ipListSec;
         }
         public void Clear()
         {
@@ -95,14 +96,11 @@ namespace ipScan
         {
             start();
             button3.Enabled = true; //Clear
-            button4.Visible = true; //RIPCash
-            textBox1.Text = ipList;
             comparison();
         }
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             SaveStart();
-            textBox2.Text = ipListSec;
             comparison();
            
         }
@@ -166,6 +164,11 @@ namespace ipScan
             {
                 textBox2.ScrollBars = ScrollBars.None;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            start();
         }
     }
 }

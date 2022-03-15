@@ -48,15 +48,16 @@
             // 
             this.button1.AutoSize = true;
             this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(12, 435);
+            this.button1.Location = new System.Drawing.Point(537, 433);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 35);
             this.button1.TabIndex = 0;
-            this.button1.Text = "IpScam";
+            this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -78,20 +79,20 @@
             // button2
             // 
             this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.SteelBlue;
+            this.button2.BackColor = System.Drawing.Color.SlateGray;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.Enabled = false;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(134, 435);
+            this.button2.Location = new System.Drawing.Point(653, 433);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 35);
             this.button2.TabIndex = 0;
             this.button2.Text = "+Scam";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // textBox2
             // 
@@ -111,14 +112,14 @@
             // button3
             // 
             this.button3.AutoSize = true;
-            this.button3.BackColor = System.Drawing.Color.SteelBlue;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(9)))), ((int)(((byte)(22)))));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button3.Enabled = false;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.button3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button3.Location = new System.Drawing.Point(1062, 430);
+            this.button3.ForeColor = System.Drawing.Color.Linen;
+            this.button3.Location = new System.Drawing.Point(946, 433);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 35);
             this.button3.TabIndex = 0;
@@ -142,19 +143,18 @@
             // button4
             // 
             this.button4.AutoSize = true;
-            this.button4.BackColor = System.Drawing.Color.SteelBlue;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(183)))), ((int)(((byte)(192)))));
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.button4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button4.Location = new System.Drawing.Point(553, 435);
+            this.button4.ForeColor = System.Drawing.Color.DimGray;
+            this.button4.Location = new System.Drawing.Point(436, 433);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(95, 35);
             this.button4.TabIndex = 0;
             this.button4.Text = "GO?";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // checkBox1
@@ -162,7 +162,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.checkBox1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.checkBox1.Location = new System.Drawing.Point(259, 441);
+            this.checkBox1.Location = new System.Drawing.Point(151, 439);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(77, 24);
             this.checkBox1.TabIndex = 5;
@@ -175,7 +175,7 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.checkBox2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.checkBox2.Location = new System.Drawing.Point(342, 441);
+            this.checkBox2.Location = new System.Drawing.Point(234, 439);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(95, 24);
             this.checkBox2.TabIndex = 6;
@@ -188,7 +188,7 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.checkBox3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.checkBox3.Location = new System.Drawing.Point(443, 441);
+            this.checkBox3.Location = new System.Drawing.Point(335, 439);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(95, 24);
             this.checkBox3.TabIndex = 7;
@@ -203,13 +203,13 @@
             // button5
             // 
             this.button5.AutoSize = true;
-            this.button5.BackColor = System.Drawing.Color.SteelBlue;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(167)))), ((int)(((byte)(63)))));
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.button5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button5.Location = new System.Drawing.Point(946, 430);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(1062, 433);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(110, 35);
             this.button5.TabIndex = 0;
@@ -225,6 +225,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(1184, 672);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -235,7 +236,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1200, 860);
@@ -243,6 +243,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ip Scammm";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
