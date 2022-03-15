@@ -118,7 +118,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.button3.ForeColor = System.Drawing.Color.Linen;
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(946, 433);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 35);
@@ -148,7 +148,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.button4.ForeColor = System.Drawing.Color.DimGray;
+            this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(436, 433);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(95, 35);

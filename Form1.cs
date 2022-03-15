@@ -88,7 +88,7 @@ namespace ipScan
             }
             else
             {
-                label2.ForeColor = Color.Red;
+                label2.ForeColor = Color.FromArgb(113,9,22);
                 label2.Text = "Данные не совпадают!";
             }
         }
