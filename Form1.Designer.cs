@@ -68,6 +68,7 @@
             this.textBox1.Location = new System.Drawing.Point(12, 28);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(584, 371);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -106,14 +107,12 @@
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(47)))), ((int)(((byte)(71)))));
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI Symbol", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.AliceBlue;
             this.textBox2.Location = new System.Drawing.Point(593, 28);
-            this.textBox2.MaxLength = 999999;
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.textBox2.Size = new System.Drawing.Size(579, 371);
             this.textBox2.TabIndex = 3;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -148,7 +147,6 @@
             this.label2.Size = new System.Drawing.Size(251, 25);
             this.label2.TabIndex = 4;
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button4
             // 
