@@ -15,10 +15,12 @@ namespace ipScan
 
     public partial class Form1 : Form
     {
-        public string pathip = @"C:\Users\bnico\Desktop\d\1.txt";
-        public string tempFile = @"C:\Users\bnico\Desktop\d\temp.txt";
-        //public string pathip = @"C:\Users\KosmonavT\Desktop\d\1.txt";
+        //public string pathip = @"C:\Users\bnico\Desktop\d\1.txt";
         //public string tempFile = @"C:\Users\bnico\Desktop\d\temp.txt";
+        //public string pathip = @"C:\Users\KosmonavT\Desktop\d\1.txt";
+        //public string tempFile = @"C:\Users\KosmonavT\Desktop\d\temp.txt";
+        public string pathip = Path.GetTempFileName();
+        public string tempFile = Path.GetTempFileName();
         private string ipList;
         private string TempipList;
         //char[] ipChars;
@@ -29,22 +31,22 @@ namespace ipScan
         }
         public void start()
         {
-            Process.Start("cmd", $"/K arp -a > {pathip} && exit && echo Список устройств > {pathip}");
+            Process.Start("cmd", $"/K arp -a > {pathip} && exit").WaitForExit();
             ipList = File.ReadAllText(pathip, Encoding.GetEncoding(866));
             button2.Enabled = true; //Scam+
-
+           
         }
         public void ClearCash()
         {
-            if (checkBox1.Checked == true)
+            if (checkBox1.Checked)
             {
                 Process.Start("cmd", "/K netsh interface ip delete arpcache && exit");
             }
-            if (checkBox2.Checked == true)
+            if (checkBox2.Checked)
             {
                 textBox1.Text = "";
             }
-            if (checkBox3.Checked == true)
+            if (checkBox3.Checked)
             {
                 textBox2.Text = "";
             }
@@ -53,8 +55,11 @@ namespace ipScan
 
         public void SaveStart()
         {
-            Process.Start("cmd", $"/K arp -a > {tempFile} && exit");
-            TempipList = File.ReadAllText(tempFile, Encoding.GetEncoding(866));
+            Process.Start("cmd", $"/K arp -a > {tempFile} && exit").WaitForExit();
+            if (File.Exists(tempFile))
+            {
+                TempipList = File.ReadAllText(tempFile, Encoding.GetEncoding(866));
+            }
         }
         public void Clear()
         {
@@ -81,11 +86,13 @@ namespace ipScan
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            // if(File.Exists(pathip)) {
-            //
-            //     File.Delete(pathip);
-            //
-            // }
+           if(File.Exists(pathip)) {
+            File.Delete(pathip);
+           }
+           if(File.Exists(tempFile)) {
+                File.Delete(tempFile);
+
+            }
         }
 
 
@@ -95,16 +102,24 @@ namespace ipScan
             button3.Enabled = true; //Clear
             button4.Visible = true; //RIPCash
             textBox1.Text = ipList;
+            if (File.Exists(tempFile))
             {
                 comparison();
+            }
+            else
+            { 
             }
         }
         private void button2_Click(object sender, EventArgs e)
         {
             SaveStart();
             textBox2.Text = TempipList;
+            if (File.Exists(tempFile))
             {
                 comparison();
+            }
+            else
+            {
             }
         }
 
@@ -122,6 +137,11 @@ namespace ipScan
         private void button4_Click(object sender, EventArgs e)
         {
             ClearCash();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

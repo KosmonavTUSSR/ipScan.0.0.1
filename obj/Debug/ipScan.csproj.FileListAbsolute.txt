@@ -20,3 +20,14 @@ D:\Relaze\ipScan\ipScan-master\obj\Debug\ipScan.csproj.GenerateResource.cache
 D:\Relaze\ipScan\ipScan-master\obj\Debug\ipScan.csproj.CoreCompileInputs.cache
 D:\Relaze\ipScan\ipScan-master\obj\Debug\ipScan.exe
 D:\Relaze\ipScan\ipScan-master\obj\Debug\ipScan.pdb
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\bin\Debug\ipScan.exe.config
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\bin\Debug\ipScan.exe
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\bin\Debug\ipScan.pdb
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.AssemblyReference.cache
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.SuggestedBindingRedirects.cache
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.Form1.resources
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.Properties.Resources.resources
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.GenerateResource.cache
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.CoreCompileInputs.cache
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.exe
+C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.pdb

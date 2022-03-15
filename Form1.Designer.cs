@@ -46,7 +46,6 @@
             // 
             this.button1.AutoSize = true;
             this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,6 +95,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 16);
@@ -175,11 +175,12 @@
             this.checkBox1.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkBox1.Location = new System.Drawing.Point(259, 441);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(77, 24);
+            this.checkBox1.Size = new System.Drawing.Size(76, 24);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "RIPcash";
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -188,7 +189,7 @@
             this.checkBox2.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkBox2.Location = new System.Drawing.Point(342, 441);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(95, 24);
+            this.checkBox2.Size = new System.Drawing.Size(94, 24);
             this.checkBox2.TabIndex = 6;
             this.checkBox2.Text = "ClearBox1";
             this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -201,7 +202,7 @@
             this.checkBox3.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkBox3.Location = new System.Drawing.Point(443, 441);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(95, 24);
+            this.checkBox3.Size = new System.Drawing.Size(94, 24);
             this.checkBox3.TabIndex = 7;
             this.checkBox3.Text = "ClearBox2";
             this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
