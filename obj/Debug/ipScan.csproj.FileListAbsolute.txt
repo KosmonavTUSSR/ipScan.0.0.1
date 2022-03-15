@@ -31,3 +31,14 @@ C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.cspr
 C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.CoreCompileInputs.cache
 C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.exe
 C:\Users\KosmonavT\Source\Repos\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.pdb
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\bin\Debug\ipScan.exe.config
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\bin\Debug\ipScan.exe
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\bin\Debug\ipScan.pdb
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.AssemblyReference.cache
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.SuggestedBindingRedirects.cache
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.Form1.resources
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.Properties.Resources.resources
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.GenerateResource.cache
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.csproj.CoreCompileInputs.cache
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.exe
+D:\Relaze\GitHub()\KosmonavTUSSR\ipScan.0.0.1\obj\Debug\ipScan.pdb
