@@ -115,6 +115,33 @@ namespace ipScan
         {
             ClearCash();
         }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+                DialogResult result = MessageBox.Show("Ваш результат будет сохранен в файл", "Сохранение",
+                    MessageBoxButtons.OKCancel,MessageBoxIcon.Question);
+                if (result == DialogResult.OK)
+                {
+                    File.Exists($@"C:\Users\{Environment.UserName}\Desktop\ipList.txt");
+                    if (File.Exists($@"C:\Users\{Environment.UserName}\Desktop\ipList.txt"))
+                    {
+                        DialogResult result2 = MessageBox.Show("ipList.txt уже существует \n Заменить?", "Сохранение",
+                             MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                        if (result2 == DialogResult.Yes)
+                        {
+                            File.WriteAllText($@"C:\Users\{Environment.UserName}\Desktop\ipList.txt", textBox1.Text + textBox2.Text);
+                        }
+                        else { }
+                    }
+                    else
+                    {
+                        File.WriteAllText($@"C:\Users\{Environment.UserName}\Desktop\ipList.txt", textBox1.Text + textBox2.Text);
+                    }
+                }
+                
+            }
+        }
         // Cкролбары
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -138,16 +165,6 @@ namespace ipScan
             else
             {
                 textBox2.ScrollBars = ScrollBars.None;
-            }
-        }
-       
-        private void TextBox1_DragDrop(object sender, DragEventArgs e)
-        {
-            {
-                if (e.Data.GetDataPresent(DataFormats.Text))
-                    e.Effect = DragDropEffects.Copy;
-                else
-                    e.Effect = DragDropEffects.None;
             }
         }
     }
