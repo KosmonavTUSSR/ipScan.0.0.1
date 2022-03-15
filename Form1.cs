@@ -133,5 +133,30 @@ namespace ipScan
         {
             ClearCash();
         }
+        // Cкролбары
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            Size sz = TextRenderer.MeasureText(textBox1.Text, Font);
+            if (sz.Height > textBox1.Height)
+            {
+                textBox1.ScrollBars = ScrollBars.Vertical;
+            }else
+            {
+                textBox1.ScrollBars = ScrollBars.None;
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            Size sz = TextRenderer.MeasureText(textBox2.Text, Font);
+            if (sz.Height > textBox1.Height)
+            {
+                textBox2.ScrollBars = ScrollBars.Vertical;
+            }
+            else
+            {
+                textBox2.ScrollBars = ScrollBars.None;
+            }
+        }
     }
 }
